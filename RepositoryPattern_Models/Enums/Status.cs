@@ -8,6 +8,6 @@ namespace RepositoryPattern_Models.Enums
 {
     public enum Status
     {
-        Success = 1, Pending, Failed
+        Success = 1, Pending, Failed, Available, Sold
     }
 }

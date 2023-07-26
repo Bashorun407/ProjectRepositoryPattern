@@ -10,6 +10,5 @@ namespace RepositoryPattern_Models.Models
     {
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
-        public ICollection<Order> orders { get; set; }
     }
 }
