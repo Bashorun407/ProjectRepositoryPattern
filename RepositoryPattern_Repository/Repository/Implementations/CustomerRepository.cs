@@ -15,7 +15,7 @@ namespace RepositoryPattern_Repository.Repository.Implementations
         private readonly AppDbContext _context;
         private readonly DbSet<Customer> _customer;
 
-        public CustomerRepository(AppDbContext context, DbSet<Customer> customer) : base(context)
+        public CustomerRepository(AppDbContext context) : base(context)
         {
             _context = context;
             _customer = _context.Set<Customer>();
@@ -33,11 +33,11 @@ namespace RepositoryPattern_Repository.Repository.Implementations
             return customer;
         }
 
-        public async Task<IQueryable<Customer>> GetAllCustomers()
+/*        public async Task<IEnumerable<Customer>> GetAllCustomers()
         {
             IQueryable<Customer> customers = _customer.Include(x => x.Products);
             return customers;
-        }
+        }*/
 
 
     }

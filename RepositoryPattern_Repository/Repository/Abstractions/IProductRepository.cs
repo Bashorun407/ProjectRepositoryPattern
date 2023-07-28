@@ -9,8 +9,7 @@ namespace RepositoryPattern_Repository.Repository.Abstractions
 {
     public interface IProductRepository : IGenericRepository<Product>
     {
-        Customer GetCustomer(int id);
-        Task<Customer> GetCustomerAsync(int id);
-        Task<IQueryable<Customer>> GetAllCustomers();
+        Task<Product> GetProductAsync(int id);
+        Task<IEnumerable<Product>> GetAllProductByCustomerId(int id);
     }
 }
