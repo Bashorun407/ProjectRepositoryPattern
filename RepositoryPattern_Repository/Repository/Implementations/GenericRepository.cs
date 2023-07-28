@@ -30,6 +30,10 @@ namespace RepositoryPattern_Repository.Repository.Implementations
             _dbSet.Update(entity);
         }
 
+        public void Delete(T entity)
+        {
+            _dbSet.Remove(entity);
+        }
         public void DeleteRange(IEnumerable<T> entities)
         {
             _dbSet.RemoveRange(entities);
