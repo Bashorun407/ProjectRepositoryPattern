@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepositoryPattern_Repository.Repository.Implementations
+namespace RepositoryPattern_Repository.Repository.Abstractions
 {
-    public class GenericRepository
+    public interface ITransactionRepository
     {
 
     }

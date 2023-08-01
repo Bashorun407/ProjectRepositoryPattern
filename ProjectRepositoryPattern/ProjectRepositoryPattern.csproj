@@ -22,4 +22,8 @@
     <ProjectReference Include="..\RepositoryPattern_Utilities\RepositoryPattern_Utilities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
 </Project>

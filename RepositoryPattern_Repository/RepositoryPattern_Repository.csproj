@@ -23,4 +23,8 @@
     <ProjectReference Include="..\RepositoryPattern_Models\RepositoryPattern_Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Seeder\" />
+  </ItemGroup>
+
 </Project>

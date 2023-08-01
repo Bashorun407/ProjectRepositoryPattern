@@ -11,7 +11,6 @@ namespace RepositoryPattern_Models.Models
     {
         [Key]
         public int Id { get; set; }
-        public string Name { get; set; }
         private DateTime CreatedDate { get; set; }
         private string CreatedBy {  get; set; }
         private DateTime ModifiedDate { get; set; }

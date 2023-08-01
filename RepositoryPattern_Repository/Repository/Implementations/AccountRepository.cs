@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RepositoryPattern_Repository.Repository.Implementations
 {
-    public class GenericRepository
+    public class AccountRepository
     {
 
     }

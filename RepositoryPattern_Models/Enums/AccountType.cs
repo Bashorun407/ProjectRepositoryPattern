@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepositoryPattern_Repository.Repository.Implementations
+namespace RepositoryPattern_Models.Enums
 {
-    public class GenericRepository
+    public enum AccountType
     {
-
+        Savings = 1, Current
     }
 }
